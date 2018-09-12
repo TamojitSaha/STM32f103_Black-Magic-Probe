@@ -7,7 +7,8 @@ It contains the pre-compiled Black Magic Probe firmware for [STM32f103 Boards](h
 Just follow the simple steps:
 
 ### Step 1:
-Connect USB-to-Serial Converter with the Blue-Pill board as show [here](http://grauonline.de/wordpress/wp-content/uploads/arduino_stm32f103c8t6.jpg) or [here](https://www.14core.com/wp-content/uploads/2016/02/Using-TTL-UART-ARM-STM32F-Flashing-Programming-Manual-Diagram-ARM.jpg). Set `BOOT0` jumper on the board to `1` and press **reset**
+Connect USB-to-Serial Converter with the Blue-Pill board as show [here](http://grauonline.de/wordpress/wp-content/uploads/arduino_stm32f103c8t6.jpg) or [here](https://www.14core.com/wp-content/uploads/2016/02/Using-TTL-UART-ARM-STM32F-Flashing-Programming-Manual-Diagram-ARM.jpg). Set `BOOT0` jumper on the board to `1` and press **reset**.
+
 Also, download this repository in the desired location.
 
 ### Step 2:
@@ -41,5 +42,6 @@ Read 256 bytes at 0x8013500
 Verification OK
 
 ```
-If you see this, you are done !! Cheers! :beer: :wink:
+If you see this, you are done !! Cheers! :beers: :wink:
+
 Plug out the Serial Converter and plug the Blue-Pill Board with the native USB.
